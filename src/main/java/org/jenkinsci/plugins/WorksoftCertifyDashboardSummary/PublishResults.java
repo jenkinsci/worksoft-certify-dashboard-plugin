@@ -1,4 +1,4 @@
-package org.jenkinsci.plugins.worksoftcertifydashboardsummary;
+package org.jenkinsci.plugins.WorksoftCertifyDashBoardSummary;
 
 import hudson.Extension;
 import hudson.Launcher;
