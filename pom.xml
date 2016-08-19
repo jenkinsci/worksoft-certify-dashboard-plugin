@@ -30,7 +30,7 @@
 
   <name>Worksoft Certify DashBoard Summary</name>
   <description>Worksoft Certify DashBoard Summary plugin is used to see the consolidated output</description>
-  <url></url>
+  <url>https://github.com/jenkinsci/worksoft-certify-dashboard-plugin</url>
 
   <!-- The default licence for Jenkins OSS Plugins is MIT. Substitute for the applicable one if needed. -->
 
