@@ -1,4 +1,4 @@
-package org.jenkinsci.plugins.WorksoftCertifyDashBoardSummary;
+package org.jenkinsci.plugins.WorksoftCertifyDashboardPlugin;
 
 import hudson.Extension;
 import hudson.Launcher;
@@ -268,7 +268,7 @@ public class PublishResults extends Builder{
 
         @Override
         public String getDisplayName() {
-            return "Worksoft Certify Dashboard Summary";
+            return "Worksoft Certify Dashboard Pugin";
         }
 
         @Override
