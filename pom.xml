@@ -10,7 +10,7 @@
     <relativePath/>
   </parent>
   <groupId>org.jenkins-ci.plugins</groupId>
-  <artifactId>WorksoftCertifyDashBoardSummary</artifactId>
+  <artifactId>WorksoftCertifyDashboardPlugin</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
@@ -28,9 +28,9 @@
     -->
   </properties>
 
-  <name>Worksoft Certify DashBoard Summary</name>
-  <description>Worksoft Certify DashBoard Summary plugin is used to see the consolidated output</description>
-  <url>https://github.com/jenkinsci/worksoft-certify-dashboard-plugin</url>
+  <name>Worksoft Certify Dashboard Plugin</name>
+  <description>Worksoft Certify Dashboard plugin is used to see the consolidated output</description>
+  <url>https://wiki.jenkins-ci.org/display/JENKINS/Worksoft+Certify+Dashboard+Plugin</url>
 
   <!-- The default licence for Jenkins OSS Plugins is MIT. Substitute for the applicable one if needed. -->
 
@@ -52,8 +52,8 @@
  
   
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/Worksoft-Certify-DashBoard-Summary-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/Worksoft-Certify-DashBoard-Summary-plugin.git</developerConnection>
+    <connection>scm:git:git://github.com/jenkinsci/Worksoft-Certify-Dashboard-Plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/Worksoft-Certify-Dashboard-Plugin.git</developerConnection>
     <url>https://github.com/jenkinsci/worksoft-certify-dashboard-plugin</url>
   </scm>
    
