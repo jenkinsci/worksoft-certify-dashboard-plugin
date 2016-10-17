@@ -6,11 +6,11 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>2.3</version>
+    <version>2.11</version>
     <relativePath/>
   </parent>
   <groupId>org.jenkins-ci.plugins</groupId>
-  <artifactId>WorksoftCertifyDashboardPlugin</artifactId>
+  <artifactId>worksoftcertifydashboard</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
@@ -21,14 +21,14 @@
     <java.level>7</java.level>
     <!-- Jenkins Test Harness version you use to test the plugin. -->
     <!-- For Jenkins version >= 1.580.1 use JTH 2.x or higher. -->
-    <jenkins-test-harness.version>2.1</jenkins-test-harness.version>
+    <jenkins-test-harness.version>2.13</jenkins-test-harness.version>
     <!-- Other properties you may want to use:
          ~ hpi-plugin.version: The HPI Maven Plugin version used by the plugin..
          ~ stapler-plugin.version: The Stapler Maven plugin version required by the plugin.
     -->
   </properties>
 
-  <name>Worksoft Certify Dashboard Plugin</name>
+  <name>Worksoft Certify Dashboard</name>
   <description>Worksoft Certify Dashboard plugin is used to see the consolidated output</description>
   <url>https://wiki.jenkins-ci.org/display/JENKINS/Worksoft+Certify+Dashboard+Plugin</url>
 
@@ -41,32 +41,46 @@
     </license>
   </licenses>
 
-  
-  <developers>
+  <scm>
+    <connection>scm:git:git://github.com/jenkinsci/Worksoft-Certify-DashBoard-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/Worksoft-Certify-DashBoard-plugin.git</developerConnection>
+    <url>http://github.com/jenkinsci/Worksoft-Certify-DashBoard-plugin</url>
+    <tag>WorksoftCertifyDashboardPlugin</tag>
+  </scm>
+
+    <developers>
     <developer>
       <id>susmitha</id>
-      <name>Susmitha,Aravind,Jeevan,Devesh</name>
-      <email>lakshmi.p@qualesce.com,aravind.r@qualesce.com,jeevana.k@qualesce.com,devesh14may@gmail.com</email>
-    </developer>
+      <name>susmitha</name>
+      <email>lakshmi.p@qualesce.com</email>
+      </developer>
+     <developer>
+         <id>aravind</id>
+         <name>aravind</name>
+         <email>aravind.r@qualesce.com</email>
+     </developer>
+     <developer>
+         <id>jeevan</id>
+         <name>jeevan</name>
+         <email>jeevan.k@qualesce.com</email>
+     </developer>
+     <developer>
+         <id>devesh</id>
+         <name>devesh</name>
+         <email>devesh14may@gmail.com</email>
+     </developer>
   </developers>
- 
-  
-  <scm>
-    <connection>scm:git:git://github.com/jenkinsci/Worksoft-Certify-Dashboard-Plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/Worksoft-Certify-Dashboard-Plugin.git</developerConnection>
-    <url>https://github.com/jenkinsci/worksoft-certify-dashboard-plugin</url>
-  </scm>
-   
+
   <repositories>
     <repository>
       <id>repo.jenkins-ci.org</id>
-      <url>http://repo.jenkins-ci.org/public/</url>
+      <url>https://repo.jenkins-ci.org/public/</url>
     </repository>
   </repositories>
   <pluginRepositories>
     <pluginRepository>
       <id>repo.jenkins-ci.org</id>
-      <url>http://repo.jenkins-ci.org/public/</url>
+      <url>https://repo.jenkins-ci.org/public/</url>
     </pluginRepository>
   </pluginRepositories>
   <!-- If you want to depend on other plugins:
