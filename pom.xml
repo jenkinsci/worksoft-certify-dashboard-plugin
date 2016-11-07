@@ -45,7 +45,7 @@
     <connection>scm:git:git://github.com/jenkinsci/Worksoft-Certify-DashBoard-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/Worksoft-Certify-DashBoard-plugin.git</developerConnection>
     <url>http://github.com/jenkinsci/Worksoft-Certify-DashBoard-plugin</url>
-    <tag>WorksoftCertifyDashboardPlugin</tag>
+    <tag>HEAD</tag>
   </scm>
 
     <developers>
