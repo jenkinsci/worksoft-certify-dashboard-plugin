@@ -1,3 +1,3 @@
 # worksoft-certify-dashboard-plugin
-Certify plugins are available in the repository
-This plugin is used to see the dashboard view the processes.
+Certify plugins are available in the repository.
+This plugin is used to see the dashboard view of the processes.
